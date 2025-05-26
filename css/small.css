@@ -1,0 +1,177 @@
+@media only screen and (max-width:700px) {
+
+    /* hero */
+    .hero-page{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-text{
+    margin: 0px 0px 50px 0px ;
+    padding: 0px 0px 0px 0px;
+}
+
+.bg-star img{
+    display: none;
+}
+
+
+/* companies */
+
+.number-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.number-box-1{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.number-box-3{
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+/* about */
+
+
+.about-text{
+    padding: 100px 0px 0px 0px;
+}
+
+
+
+/* project */
+
+.project h1 {
+    margin: 0px 40px 0px 0px;
+}
+
+.offer-box{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* portfolio */
+
+.portfolio-menu{
+    display: none;
+}
+
+.portfolio .dropdown {
+    display: block;
+}
+
+.portfolio-page{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 0px;
+}
+
+.custom-dropdown-menu {
+   width: 100%;
+}
+
+.custom-dropdown-menu i{
+    margin-left: 70%;
+    color: #EF6D58;
+}
+
+/* offer */
+
+
+.box-3 img{
+    position: static;
+    
+}
+
+.box-3{
+     position:static;
+     display: flex;
+     justify-content: center;
+}
+
+.inner-box{
+    padding: 90px 0px 0px 40px;
+}
+
+
+
+
+/* testimonial */
+
+.card-phone{
+    display: none;
+}
+
+.arrow-box{
+    display: none;
+}
+
+.ball{
+    display: block
+}
+
+
+/* plans */
+
+.design {
+    padding: 40px!important;
+    border: 1px solid #F3D1BF;
+    border-radius: 5px;
+    max-height: 520px;
+    background-color: white;
+    transform: translateY(-0px); /* Shift content down by 20px */
+}
+
+.plans-page{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* get in touch */
+
+.icon-page{
+    background-image: url("../images/map.png");
+}
+
+.map{
+    background-image: none;
+    background-color: #FDF0E9;
+    padding: 0;
+}
+
+
+/* footer */
+
+.mini-box{
+    margin: 0px 0px 30px 0px;
+   text-align: center;
+}
+
+.media-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Policy{
+     display: flex;
+    justify-content: center;
+}
+
+.Copyright{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+}
